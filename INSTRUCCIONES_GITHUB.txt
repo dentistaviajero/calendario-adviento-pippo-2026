@@ -1,0 +1,6 @@
+CALENDARIO DE ADVIENTO PIPPO - PAQUETE RECONSTRUIDO
+
+NO SUBAS EL ZIP COMO SI FUERA LA WEB.
+En GitHub, rama principal, usa Add file > Upload files y sube index.html, adviento-extras.js y la carpeta assets con su contenido (desde PC es más sencillo arrastrar carpeta completa). En celular, subir los archivos a la carpeta assets por separado y los dos archivos raíz a la raíz. No borres otros archivos existentes sin revisar.
+Este paquete recupera archivos accesibles en la conversación y crea imprimibles PDF de sustitución. No asegura recuperar cada diseño previo.
+Días 14 y 18 y dinámicas del 20, 21 y 24 siguen pendientes de confirmación.
