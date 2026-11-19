@@ -1,0 +1,3 @@
+Calendario de Adviento Club de Pippo - paquete ZIP reparado.
+Sube el CONTENIDO de esta carpeta a Cloudflare Pages, manteniendo index.html y adviento-extras.js en la raiz y assets/ como subcarpeta.
+Las actividades indicadas como provisionales siguen pendientes. Verifica el calendario y las condiciones comerciales antes de publicarlo.
