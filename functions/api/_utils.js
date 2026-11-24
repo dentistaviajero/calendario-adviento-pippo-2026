@@ -2,7 +2,8 @@ export function mexicoDay(){
  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Mexico_City',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
  const v=Object.fromEntries(parts.map(x=>[x.type,x.value]));
  const year=Number(v.year),month=Number(v.month),day=Number(v.day);
- return {year,month,day,unlocked:year>2026?24:year<2026?0:month<12?0:month>12?24:Math.min(day,24)};
+ const key=year*10000+month*100+day;
+ return {year,month,day,ended:key>=20270107,reyesOpen:key>=20261224&&key<20270107,unlocked:key>=20270107?0:year>2026?24:year<2026?0:month<12?0:month>12?24:Math.min(day,24)};
 }
 export function json(value,status=200){return new Response(JSON.stringify(value),{status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'}})}
 export async function adminAllowed(request,env){
